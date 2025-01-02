@@ -1,0 +1,42 @@
+.line1{
+    display: inline;
+}
+.line2{
+    display: inline;
+}
+
+.title{
+    display: inline;
+}
+
+
+.description1{
+    color: red;
+}
+
+.description2{
+    color: #FF0000;
+}
+
+.description3{
+    color: rgb(255, 0, 0);
+}
+
+.description4{
+    color: rgba(255, 0, 0,0.5);
+}
+
+
+
+/* font er ki ki change ana jay */
+
+.par{
+    color: goldenrod;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    /* nicher ei duita likle page er tik maje leka ana jay */
+    width: 50%;
+    margin: auto;
+}
