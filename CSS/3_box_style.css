@@ -1,0 +1,19 @@
+.box{
+    width: 200px;
+    border: 2px solid gray; /* Border dewar system holo eta  */
+    text-align: center;
+    /* padding: 20px;  Content theke border er modde gap toiri kore. zodi top ,bottom, left, right sob dike same padding hoy, tobe shudu padding liklei hobe*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* Zodi shudu margin liki, tahole choturdik thekei margin apply hobe */
+    /* margin: 20px; */
+    /* kintu amra chaile bole dite o pari,kun pasher margin amra chai.... */
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin: 50px 100px; /*prothom ta top-bottom & 2nd ta left-right hishebe kaj kore */
+
+}

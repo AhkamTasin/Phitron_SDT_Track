@@ -1,0 +1,30 @@
+.title1{
+    color: red;
+    font-size: 44px;
+}
+
+.title2{
+    color: green;
+    font-size: 66px;
+}
+.title3{
+    color: blue;
+    font-size: 88px;
+    font-style: italic;
+}
+
+h2{
+    color: blueviolet;
+    font-size: 55px;
+}
+
+#i1{
+    color: red;
+    font-size: 50px;
+}
+
+#i2{
+    color: aqua;
+    font-style: italic;
+    font-size: 30px;
+}
