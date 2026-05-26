@@ -10,6 +10,18 @@
 }
 
 
+/* class ta gayeb hoye zabe */
+.title3{
+    display: none;
+}
+
+
+
+.span1{
+    display: block;
+}   
+
+
 .description1{
     color: red;
 }
@@ -22,7 +34,10 @@
     color: rgb(255, 0, 0);
 }
 
-.description4{
+/* rgba, ei a add korar maddhome color er opacity o control kora jay.
+ opacity er value 0 theke 1 er moddhe dite hoy. jodi 0 dei tahole pura transparent hoye zabe, ar jodi 1 dei tahole pura opaque hoye zabe. r jodi 0.5 dei tahole half transparent hoye zabe. */
+
+ .description4{
     color: rgba(255, 0, 0,0.5);
 }
 
