@@ -1,0 +1,50 @@
+<!-- ! likhe enter click korle html er ekta template chole ashbe -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--ekta section / box toiri korar jonne <div> tag use kora hoy. erpor ei puro section/box take move korano zabe
+    bortomane div er bodole section tag use kora hoy.. ekta <section><\section> er moddhe sokor html tag use kora zay
+        ekta web page e vibinno section/box thake, eg: Header, footer, body etc. ei prottektar jonne ze html tag gula 
+        lagbe segulake niye ekta section korle code gulake alada korte suvida. zemod header er code header section e .
+        footer er html code footer section e .-->
+    <div>
+    <h1>Hello World!!</h1>
+    <h1>Hello World!!</h1>
+    <h1>Hello World!!</h1>
+    <h1>Hello World!!</h1>
+    <h1>Hello World!!</h1>
+    </div>
+
+    <section>
+        <h1>Hello World!!</h1>
+        <h1>Hello World!!</h1>
+    </section>
+
+    <!--kuno jygay click korle ekta link e niye zabe.. erokom korte anchor tag use kora hoy
+    href (hypertext reference) diye target reference bujhay. It defines the destination or URL that the link points to-->
+    
+    <a href="https://www.google.com/">Open Google</a> <!--Same tab e open hobe-->
+    <br>
+    <a target="_blank" href="https://www.google.com/">Open Google</a> <!--new tab e open hobe-->
+
+    <br>
+    <!--zodi link e click korle onno ekta file(html/etc) e jete hoy, tahole...??-->
+    <!-- test file ta ei html folder er vitore thakle, tar path hobe: ./test.html -->
+    <a target="_blank" href="./test.html">Open test</a>
+    <br>
+    <!--Zodi test file ta ei html folder er baire thake.. tobe aro ekta dot dite hobe, mane aro ek ghor pichone zabo-->
+
+    <a target="_blank" href="../test_baire.html">Open test baire</a>
+
+    <br>
+    <!-- zodi test file ta html folder er baire, but onno folder er vitore thake, tahole...??? -->
+    <!-- duita dot diye aro ek ghor pichone jabo, mane html folder er vitor theke ek ghor pichone zabo mane dtml folder er baire zabo, 
+     tarpor test folder er vitore test1.html file ta ache, tai tar path hobe: ../test_folder/test1.html -->
+    <a target="_blank" href="../test_folder/test1.html">Open test in another folder</a>
+</body>
+</html>
