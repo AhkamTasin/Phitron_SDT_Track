@@ -1,0 +1,60 @@
+/* 
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin-top: 10px;
+
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(197, 243, 164);
+    border: 2px solid black;
+    margin-top: 10px
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 140, 173);
+    border: 2px solid black;
+    margin-top: 10px
+} 
+*/
+
+
+/* zehetu tinta box er e width , height, border and margin-top same,
+ tai eki jinish bar bar na likhe common info gula likhar jonne sobgula box /div e extra kore common class 'all box' dibo. and setar moddhe common info gula likhbo. different info gula box1, box2, box3 class e likhbo. */
+
+
+.all_box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+
+.box1{
+    background-color: lightblue;
+}
+
+.box2{
+    background-color: rgb(197, 243, 164);
+}
+
+.box3{
+    background-color: rgb(255, 140, 173);
+}
+
+
+.box0{
+    width: 500px;
+    height: 100px;
+    border: 3px solid black;
+    text-align: center;
+    position: fixed;
+}
