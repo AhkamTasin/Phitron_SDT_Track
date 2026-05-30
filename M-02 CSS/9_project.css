@@ -90,3 +90,78 @@ li:hover{
     font-size: 38px;
     font-weight: 800;
 }
+
+
+/* My services */
+
+.service-container{
+    margin-top: 20px;
+    text-align: center;
+    
+
+}
+
+.service-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.service-card{
+    margin-left: 20px;
+    width: 300px;
+    height: 500px;
+    font-size: 20px;
+    box-shadow: 4px 4px 8px gray; /* 4px 4px mane shadow ta card er theke 4px right e and 4px down e thakbe. 8px mane shadow ta koto blur hobe, jate shadow ta aro soft lage. color gray diye shadow er color deya hoyeche. */
+
+    border-radius: 10px; /* border radius diye card er charpasher kuna jaygay border round kora hoyese, 10px mane card er charpashe 10px radius er curve hobe. */
+
+    text-align: center; 
+}
+
+.web-dev-img{
+    width: 250px;
+    margin-top: 15px;
+}
+
+.desk-app-dev-img{
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.ai-agent-dev-img{
+    width: 300px;
+    height: 250px;
+    margin-top: 18px;
+}
+
+
+.btn-service{
+    padding: 10px 25px;
+    background-color: rgb(255, 136, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.service-description{
+    margin: 10px;
+    font-size: 19px;
+}
+
+
+.services{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+/* card er details button e ekta underline design, seta soranor jonne none kortesi */
+.details-link{
+    text-decoration: none;
+}
