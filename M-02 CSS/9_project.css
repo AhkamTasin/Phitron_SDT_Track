@@ -1,0 +1,92 @@
+/* default vabe css ekta margin & padding diye dey. eta bondho korte hobe. sobkane tai * diye bolbo, star * mane select all */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(201, 248, 235);
+    padding: 10px;
+    height: 70px;
+}
+
+.logo{
+    width: 90px;
+}
+
+/* li use koray . . . diye menu gular name astese, tai dot tulte hole: */
+
+li{
+    list-style: none;
+    font-size: 20px;
+}
+
+/* menu gula zehetu block lever element, tai niche niche asche. tader pashpashi ante hole tader parent box menu-container k display flex korte hobe */
+
+.menu-container{
+    display: flex;
+    gap: 50px;
+    /*flex koray sobgula pashapasi lege royese, tai prottek tar moddhe gap diye dibo */
+}
+
+/* menu te cursor niye gele/ hover korle cursor change hoye pointer hobe and menu er  color o change hobe
+etake bole hover effect. er jonne zar upor ei effect korte chai (ekhane li gula) seta: hover diye bolbo
+*/
+
+li:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+
+
+
+.banner-image{
+    width: 350px;
+    margin-top: 10px;
+}
+
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("image/banner-background.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.banner-left{
+    width: 700px;
+    line-height: 30px;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.hire-btn{
+    background-color: rgb(29, 20, 105);
+    margin-right: 25px;
+}
+
+.project-btn{
+    background-color: rgb(0, 99, 191);
+}
+
+
+.name-title{
+    font-size: 38px;
+    font-weight: 800;
+}
