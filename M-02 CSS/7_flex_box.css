@@ -1,0 +1,90 @@
+.line-1{
+    width: 300px;
+    height: 200px;
+    border: 2px solid grey; 
+}
+
+/* 
+.line-1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(255, 0, 0); 
+}
+*/
+
+/* zodi same zinish dui bar likhi, tobe css nicher ta nibe, karon css er last ta priority pabe. Jodi same property duibar likha hoy, tobe last ta apply hobe.
+ekhane sob same but border er color alada alada, tobe last ta apply hobe, tai border er color red hobe. */
+
+
+.line-2{
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(255, 0, 0); 
+}
+
+
+.line-3{
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(255, 0, 0); 
+}
+
+
+.line-4{
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(255, 0, 0); 
+}
+
+
+
+.line-container{
+    border: 2px solid rgb(124, 1, 255);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100%;  /* eta default, na dileo cholto, width: 100px evabe change kora zabe  */
+    /* height: 600px; evabe zekuno kisu dite pari */
+    /* zodi pura ekta window height nite chai, tobe height: 100vh dibo */
+
+    height: 100vh; /* vh mane viewport height, mane pura window er height nibe */
+
+    align-items: center; /* child ke parent er tik majkhane e niye asbe, height borabor.  */
+    flex-wrap: wrap; /* device er size onujayi child box gulo ek line e thakbe ba ekadhik line e thakbe.  */
+}
+
+/* zodi parent div/box er display: flex; hoy, tobe tar sob child div/box gulo ek line e/ pashapasi thakbe. 
+
+eg: child ke line e ante parent er kase nalish dewai zothesto...😂
+
+parent div e bole dite hobe child gula kivabe thakbe...... prottek child k alada kore bola lagbe na....
+
+ekhon flex er kisu property ache, jemon justify-content, align-items, flex-direction, flex-wrap etc.
+prothome display k flex korte hobe, tarpor e property gula use kora zabe. nahole zabe na.
+
+
+nicher  gula revision er somoy apply kore kore dekbo....
+
+justify-content: center;  --> child ke parent er tik majkhane e niye asbe, width borabor. 
+justify-content: space-between;  --> child duto ke width borabor ekdom dui prante nibe.
+justify-content: space-around;  --> child duto ke width borabor ekdom dui prante nibe, kintu child er pasapasi o space thakbe.
+justify-content: space-evenly;  --> child duto ke width borabor ekdom dui prante sampe space niye thakbe,
+
+ami etokkon width/ row borabor box gulake center/zekuno jaygay niye ashte cilam
+default vabe width 100% dewa thake, but height amader set korte hobe
+
+child box gulake parent er center/zekuno jaygay width/ row borabor move korate hole justify-content use korte hobe.
+
+ekhon height borabor kivabe center e anbo??
+
+height borabor center e anbo, tar jonno align-items use korte hobe.
+align-items use kore height borabor child ke move korate parbo
+
+
+
+
+
+flex-wrap: wrap; use korle device ta responsive hoye jabe, mane device er size onujayi child box gulo ek line e thakbe ba du line e thakbe.
+
+*/

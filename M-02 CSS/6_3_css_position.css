@@ -1,0 +1,56 @@
+.all_box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+
+.box1{
+    background-color: lightblue;
+}
+
+.box2{
+    background-color: rgb(10, 123, 10);
+    text-align: center; 
+    position: relative;
+    top: 50px; 
+    left: 100px;
+    
+}
+
+.box3{
+    background-color: rgb(255, 140, 173);
+}
+
+
+.red_child{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 50px;
+
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+
+
+
+/* 
+.red_child{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 50px;
+
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -20px;
+} 
+evabe bivinno sticker banano zabe    
+
+*/

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position: Absolute</title>
+    <link rel="stylesheet" href="6_3_css_position.css">
+</head>
+<body>
+
+    <div class="box1 all_box">
+        This is a box 1
+    </div>
+
+    <div class="box2 all_box">
+        This is a box 2
+        <div class="red_child">
+            child of box 2
+        </div>
+    </div>
+
+    <div class="box3 all_box">
+        This is a box 3
+    </div>
+
+
+    <!--     
+    position: absolute; দিলে element টি document flow থেকে বের হয়ে যায়, ঠিক fixed এর মতো।
+    তাই অন্য element গুলো তার জায়গা দখল করতে পারে। 
+
+    absolute → nearest positioned parent এর সাপেক্ষে move করে।
+
+    মানে parent element যদি position: relative; (বা static ছাড়া অন্য কিছু) হয়, তাহলে absolute element সেই parent কে base ধরে move করবে।
+    
+
+    ekhane box 2 er position relative, red_child box ta holo box 2 er child, 
+    tai red_child box ta tar parent -box 2 ke base dhore/ box 2 er boundary er sapekke move korbe.
+
+    kintu box 2 relative howay, se move korese tar real document flow er position er sapekkhe.
+
+
+    zehetu position absolute dile element ta document flow theke ber hoye jay, tai onno element gulo tar jayga dakkol korte pare.
+    ejonne ekhane child of box 2 ta tar jayga chere dise and 'This is box 2' lika ta tar jayga dakkol kore niyeche.
+    
+    
+    mane position absolute dile box ta tar jayga chere dey and tar parent er sapekke move kore. 
+    -->
+
+
+
+
+    
+
+
+</body>
+</html>
